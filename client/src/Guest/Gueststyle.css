@@ -1,0 +1,654 @@
+.admin-mainG {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  grid-template-areas: " nav nav nav nav nav nav"
+    " home home home home  home  home"
+    " home home home home  home  home"
+    " home home home home  home  home"
+    " home home home home  home  home"
+    " home home home home  home  home"
+    " home home home home  home  home"
+    " home home home home  home  home"
+    " home home home home  home  home";
+}
+
+.headG {
+
+  background-color: #ffffff;
+
+  grid-area: nav;
+  border-bottom: 1px solid #dfd9d9;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.adminHomeG {
+  grid-area: home;
+  background-color: #ffffff;
+
+  background-size: cover;
+
+}
+
+.headfulldiv {
+  display: flex;
+
+}
+
+.headcontainer {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sidelogodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+
+.linksUS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  justify-content: space-evenly;
+
+
+}
+
+.linkuser {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  margin-left: 30px;
+}
+
+.linkshop {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  margin-left: 30px;
+}
+
+.Guestdiv {
+  font-size: 18px;
+  color: rgb(12, 11, 11);
+  display: flex;
+
+}
+
+#nameGuest {
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+  }
+}
+
+#emailGuest {
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+  }
+}
+
+#contactGuest {
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+  }
+}
+
+.adrsinputuser {
+  font-size: 16px;
+  height: 70px;
+  width: 380px;
+  border-radius: 5px;
+  padding: 0;
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+
+  }
+}
+
+#pswrdcstmr {
+
+  font-size: 16px;
+
+  height: 34px;
+  width: 406px;
+  border-radius: 5px;
+  padding: 0;
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+
+  }
+}
+
+.adrsinputuser::placeholder {
+  padding-inline: 10px;
+  padding-top: 6px;
+}
+
+.cstmrAdrsDiv {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.buttongroup {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+
+
+}
+
+.shopmaindiv {
+  font-size: 18px;
+  color: rgb(12, 11, 11);
+  display: flex;
+  margin-left: 160px;
+  
+}
+
+.enterarea {
+  height: 30px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ccc;
+}
+
+#slct-District {
+
+  height: 34px;
+  width: 385px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+select:invalid {
+  color: green;
+}
+
+#slct-Place {
+  height: 34px;
+  width: 385px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+
+  }
+}
+
+#shop-slct-District {
+
+  height: 34px;
+  width: 406px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+
+#shop-slct-Place {
+  height: 34px;
+  width: 406px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+
+  }
+}
+
+.cstmrPswrdDiv {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cstmrSlctPlace {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.buttongroup {
+  padding: 10px;
+}
+
+.ONLINEDiv {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.SHOPPINGDiv {
+  font-size: 80px;
+  font-weight: bold;
+
+}
+
+.floating-label-group {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.cstmr-floating-label {
+  font-size: 16px;
+  color: #999b9e;
+  position: absolute;
+  pointer-events: none;
+  top: 9px;
+  left: 30px;
+  transition: all 0.1s ease;
+}
+
+input:focus~.cstmr-floating-label,
+input:not(:focus):valid~.cstmr-floating-label {
+  top: -20px;
+  bottom: 80px;
+  left: 30px;
+  font-size: 18px;
+  opacity: 1;
+  color: #000000;
+}
+
+
+.row {
+  margin-top: 50px;
+}
+
+.form-control {
+  height: 30px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+}
+
+.floating-label-group {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.shop-floating-label {
+  font-size: 16px;
+  color: #999b9e;
+  position: absolute;
+  pointer-events: none;
+  top: 9px;
+  left: 10px;
+  transition: all 0.1s ease;
+}
+
+input:focus~.shop-floating-label,
+input:not(:focus):valid~.shop-floating-label {
+  top: -20px;
+  bottom: 80px;
+  left: 10px;
+  font-size: 18px;
+  opacity: 1;
+  color: #000000;
+}
+
+
+.row {
+  margin-top: 50px;
+}
+
+.form-control {
+  height: 30px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+
+
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+#container {
+  grid-area: main;
+  align-self: center;
+  justify-self: center;
+  margin-top: 30px;
+}
+
+.forminputboxicons {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+.guestContainerdiv{
+  margin-left: 100px;
+}
+.cstmrslctDistrict{
+  margin-left: 25px;
+}
+.cstmrSlctPlace{
+  margin-left: 25px;
+}
+.cstmrsubmitbtn{
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0838c7; 
+color: white;
+}
+.cstmrsubmitbtn:hover{
+  background-color: #275EFE;
+}
+.cstmrcancelbtn:hover{
+  background-color: #275EFE;
+}
+.cstmrcancelbtn{
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0838c7; 
+color: white;
+}
+
+
+#emailShop{
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+  }
+}
+#cntctShop{
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+  }
+}
+#pswrdGuest{
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+  }
+}
+#filesChoose{
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+  }
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.addrsShop {
+  font-size: 16px;
+  height: 70px;
+  width: 406px;
+  border-radius: 5px;
+  padding: 0;
+  border: 1px solid #CDD9ED;
+  transition: border .3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #275EFE;
+
+  }
+}
+
+.addrsShop::placeholder {
+  padding-inline: 10px;
+  padding-top: 6px;
+}
+
+.cstmrAdrsDiv {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+ 
+
+
+.loginPageSide1div{
+  width: 270px;
+  height: 448px;
+  padding: 40px 33px;
+  background-color: #2874f0;
+  font-size: 15px;
+  color: #fff;
+}
+
+.loginPageSide2div{
+  width: 434px;
+  height: 456px;
+  padding: 56px 35px 16px;
+  position: relative;
+    background-color: #fff;
+    
+     }
+.LoginText{
+  font-size: 28px;
+    font-weight: 500;
+    font-family: Roboto,Arial,sans-serif;
+}
+.LoginDescription{
+  font-size: 18px;
+    margin-top: 16px;
+    line-height: 150%;
+    color: #dbdbdb;
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+
+
+
+.inputemail{
+  width: 424px;
+  height: 19px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: inherit;
+}
+.inputPswrd{
+  width: 424px;
+  height: 19px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: inherit;
+}
+.form-rowEmail{
+  margin-bottom: 16px;
+  color: #878787;
+}
+.form-rowpswrd{
+  color: #878787;
+}
+.GuestloginBtn{
+ width: 434px;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Roboto,Arial,sans-serif;
+   color: #fff;
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+.LoginFullDiv{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.RegisterAccount{
+  text-decoration: none;
+  color: #2874f0;
+    font-weight: 500;
+    font-family: Roboto,Arial,sans-serif;
+margin-left: 2px;
+}
+.LogLinks{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  bottom:0;
+  right:90px;
+}
